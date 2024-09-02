@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copia los archivos requeridos
 COPY app.py /app/app.py
-COPY .env /app/.env
+#COPY .env /app/.env
 
 # Instala las dependencias
 RUN pip install flask tweepy python-dotenv
